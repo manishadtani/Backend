@@ -6,7 +6,6 @@ const globalRouter = require("./routes/global.routes")
 
 app.use("/", indexRouter);
 
-
 app.use("/user", userRouter)
 
 app.use("*", globalRouter)
